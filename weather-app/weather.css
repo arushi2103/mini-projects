@@ -3,8 +3,8 @@
 }
 body{
     margin: 0;
-    background-color: seashell;
-
+    /* background-color: seashell; */
+    background: linear-gradient(400deg, #757b87,#0d7575, #50a3a3);  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +17,7 @@ input{
     padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
+    background-color: #fff;
     border: none;
     border-radius: 25px;
     min-width: 300px;
@@ -25,3 +26,33 @@ input{
 input:focus{
     outline: none;
 }
+
+.weather{
+    text-align: center;
+    font-size: 2rem;
+  
+}
+.weather h2{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.weather img{
+    transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
